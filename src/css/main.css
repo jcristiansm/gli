@@ -40,6 +40,18 @@ h1 {
   width: 100%;
 }
 
+button {
+  background-color: var(--tertiary-color);
+  border: none;
+  border-radius: 5px;
+  color: var(--primary-color);
+  padding: 1.2rem 1.6rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: var(--primary-font);
+  cursor: pointer;
+}
+
 /********* SIDEBAR *********/
 .sidebar {
   width: 25.7rem;
@@ -161,7 +173,7 @@ h1 {
 .links-home:visited,
 .links-home:active {
   color: var(--primary-color);
-  opacity: 64%;
+  /* opacity: 80%; */
 }
 .links-courses:link,
 .links-courses:visited,
@@ -176,4 +188,29 @@ h1 {
 
 .search-options {
   display: flex;
+  align-items: center;
+}
+.search-options input {
+  margin-right: 1rem;
+  border: none;
+  border-radius: 3.2rem;
+  background-color: var(--tertiary-color);
+  /* opacity: 24%; */
+  padding: 1.4rem 0 1.5rem 5rem;
+  width: 30rem;
+}
+.search-options button {
+  margin-right: 1.5rem;
+}
+
+.btn-download {
+  border: 2px solid var(--secondary-color);
+  background-color: var(--white-color);
+}
+
+.btn-new {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 1.4rem 1.6rem;
+  margin-left: 2rem;
 }

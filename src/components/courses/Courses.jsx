@@ -28,8 +28,8 @@ const Courses = () => {
           </div>
         </div>
         <div className="other-options">
-          <button>Descargar</button>
-          <button>Agregar nuevo curso</button>
+          <button className="btn-download">Descargar</button>
+          <button className="btn-new">Agregar nuevo curso</button>
         </div>
       </div>
     </main>
